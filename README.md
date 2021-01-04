@@ -24,5 +24,5 @@
 
 ## Contact
 
-- Website [your-website.com](https://www.paulmasondev.com)
-- GitHub [@your-username](https://{github.com/PaulMasonDev})
+- Website [www.paulmasondev.com](https://www.paulmasondev.com)
+- GitHub [@PaulMasonDev](https://github.com/PaulMasonDev)
