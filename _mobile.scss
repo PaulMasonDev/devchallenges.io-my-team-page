@@ -1,0 +1,66 @@
+@media (max-width: 500px) {
+  .wrapper {
+    margin: 0;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    position: relative;
+    width: 100vw;
+    .header {
+      margin: 0;
+      flex-direction: column;
+      align-items: flex-start;
+      &__title {
+        margin: 0;
+        margin-top: 7.1rem;
+        margin-bottom: 3.8rem;
+        line-height: inherit;
+        width: 100vw;
+      }
+      &__about {
+        margin: 0;
+        width: 33.3rem;
+      }
+      &__who-we-are {
+        margin: 0;
+        margin-bottom: 1rem;
+      }
+      &__content {
+        margin: 0;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+      }
+    }
+    .main {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 0 auto;
+      margin-top: 7rem;
+      margin-left: 0.6rem;
+      margin-right: 1rem;
+      &:not(first-child) {
+        margin-top: 4rem;
+      }
+
+      .crew-box {
+        width: 45vw;
+        &:nth-child(3n + 2) {
+          margin-top: 0;
+        }
+        &:nth-child(2n + 2) {
+          margin-top: 5rem;
+        }
+      }
+    }
+
+    .footer {
+      &__content {
+        position: absolute;
+        width: 100%;
+        height: 1.7rem;
+        margin: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  margin: 0 auto;
+  margin-top: 11rem;
+  margin-bottom: 9.6rem;
+  display: flex;
+  align-items: flex-end;
+
+  &__title {
+    font-family: "PT Serif";
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4.8;
+    letter-spacing: -0.045rem;
+    text-align: left;
+    margin-right: 21.5rem;
+  }
+  &__about {
+    width: 44rem;
+    margin-left: 8rem;
+  }
+  &__who-we-are {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  &__content {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,29 @@
+.crew-box {
+  display: flex;
+  &:nth-child(3n + 2) {
+    margin-top: 10rem;
+  }
+  &--margin-offset {
+    margin-top: 10rem;
+  }
+  &__portrait {
+  }
+  &__img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+  &__role {
+    font-family: "PT Serif", serif;
+    font-size: 1.2rem;
+    line-height: 1.59rem;
+    margin-left: 1rem;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    text-transform: uppercase;
+  }
+}
